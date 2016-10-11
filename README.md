@@ -12,8 +12,7 @@ URMulator is an Unlimited Register Machine (URM) simulator with a graphical inte
 part of the curriculum of Informatics studies at the Faculty of Mathematics, University of Belgrade.
 I release it publically in the hope that it will be useful to fellow students.
 
-### What makes it different from other URM simulators?
-The graphical interface with a built in text editor for writing URM programs, and an image viewer for a dynamically generated graph based on your URM program, replacing pen and paper, making solving URM problems more fluid and hopefully more intuitive.
+**What makes it different from other URM simulators** is the graphical interface with a built-in text editor for writing URM programs, and an image viewer for a dynamically generated graph based on your URM program, replacing pen and paper, making solving URM problems more fluid and hopefully more intuitive.
 
 ## Changelog
 
@@ -156,6 +155,8 @@ The following program,
     11: z(0)
 
 yields the following graph.
+
+![URMulator](https://raw.githubusercontent.com/laleksic/URMulator/master/Images/Experimental.png "URMulator")
 
 Comments enclosed with hash tags (`#`) will be displayed in a special note node on the graph itself. Such comments may not exceed 256 characters in length.
 
