@@ -21,6 +21,7 @@ E-mail: <laleksic@mail.ru>
 ## Known bugs
 *	None so far. Report bugs to <laleksic@mail.ru>.
 
+![URMulator](https://raw.githubusercontent.com/laleksic/URMulator/master/Images/Screenshot.png "URMulator")
 ## About
 
 URMulator is an Unlimited Register Machine (URM) simulator with a graphical interface and graph generation. I started it in early 2016 as a hobby project to learn C, and as an aid to solving URM problems
