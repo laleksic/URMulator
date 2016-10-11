@@ -183,7 +183,7 @@ Neither of these influences the working of the program, and they are merely aest
 Mandatory or optional arguments to long options are also mandatory or optional
 for any corresponding short options.
 
-Running `urm Multiples 25 6` will simply run the URM program defined in the plaintext file `Add` for the set starting register values of 25 and 6 for registers 1 and 2 respectively and print the resulting register values, both to standard terminal output and to a file entitled `Multiples.out` in the working directory.
+Running `urm Multiples 25 6` will simply run the URM program defined in the plaintext file `Multiples` for the set starting register values of 25 and 6 for registers 1 and 2 respectively and print the resulting register values, both to standard terminal output and to a file entitled `Multiples.out` in the working directory.
 
 Running the same with the `-g` or `--graph` option would produce a Graphviz generated graph in the **.png** in the working directory entitled `Multiples.graph`. Graph colors, size and output format are currently hardcoded, though they will be made customizable in future.
 
