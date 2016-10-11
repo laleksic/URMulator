@@ -1,9 +1,19 @@
+![URMulator](https://raw.githubusercontent.com/laleksic/URMulator/master/Images/Screenshot.png "URMulator")
 # URMulator v20161011
 Copyright © 2016 Luka Aleksić  
 All rights reserved
 	
 Web: <https://github.com/laleksic/URMulator>  
 E-mail: <laleksic@mail.ru>
+
+## About
+
+URMulator is an Unlimited Register Machine (URM) simulator with a graphical interface and graph generation. I started it in early 2016 as a hobby project to learn C, and as an aid to solving URM problems
+part of the curriculum of Informatics studies at the Faculty of Mathematics, University of Belgrade.
+I release it publically in the hope that it will be useful to fellow students.
+
+### What makes it different from other URM simulators?
+The graphical interface with a built in text editor for writing URM programs, and an image viewer for a dynamically generated graph based on your URM program, replacing pen and paper, making solving URM problems more fluid and hopefully more intuitive.
 
 ## Changelog
 
@@ -20,16 +30,6 @@ E-mail: <laleksic@mail.ru>
 
 ## Known bugs
 *	None so far. Report bugs to <laleksic@mail.ru>.
-
-![URMulator](https://raw.githubusercontent.com/laleksic/URMulator/master/Images/Screenshot.png "URMulator")
-## About
-
-URMulator is an Unlimited Register Machine (URM) simulator with a graphical interface and graph generation. I started it in early 2016 as a hobby project to learn C, and as an aid to solving URM problems
-part of the curriculum of Informatics studies at the Faculty of Mathematics, University of Belgrade.
-I release it publically in the hope that it will be useful to fellow students.
-
-### What makes it different from other URM simulators?
-The graphical interface with a built in text editor for writing URM programs, and an image viewer for a dynamically generated graph based on your URM program, replacing pen and paper, making solving URM problems more fluid and hopefully more intuitive.
 
 ## Permissions
 
