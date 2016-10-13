@@ -56,14 +56,9 @@ For permissions contact me at <laleksic@mail.ru>.
 * **gtksourceview** and development libraries
 * **goocanvas** and development libraries
 
-On Ubuntu Linux (preferred distribution at my university) the following commands *should* cover them all (though I am unsure of the package names as I do not use Ubuntu):
+On Ubuntu Linux (preferred distribution at my university) the following command covers them all.
 
-    sudo apt-get install build-essential
-    sudo apt-get install libglib2.0 libglib2.0-dev
-    sudo apt-get install graphviz graphviz-dev
-    sudo apt-get install libgtk2.0 libgtk2.0-dev
-    sudo apt-get install libgtksourceview2.0 libgtksourceview2.0-dev
-    sudo apt-get install libgoocanvas2.0 libgoocanvas2.0-dev
+    sudo apt install build-essential pkg-config x11proto-randr-dev libglib2.0-dev libgtk2.0-dev libgtksourceview2.0-dev libgoocanvas-dev graphviz-dev
 
 ### Compiling
 Navigating to the projects root directory, running `make` will compile the source and output executable files to the `Executable/` directory from which it can be run. Running `make install` as root will install the URMulator.
