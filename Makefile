@@ -20,10 +20,10 @@ ExecutableName=urm
 
 Urmulator:
 	gcc -g -w -std=c99 \
-	 `pkg-config --cflags --libs glib-2.0 libgvc gtk+-2.0 gtksourceview-2.0 goocanvas` \
 	 -I$(HeaderDirectory) \
 	 -o $(ExecutableDirectory)/$(ExecutableName) \
-	 $(Sources)
+	 $(Sources) \
+	 `pkg-config --cflags --libs glib-2.0 libgvc gtk+-2.0 gtksourceview-2.0 goocanvas`
 
 install: Urmulator
 	install -m 0755 $(ExecutableDirectory)/$(ExecutableName) $(InstallDirectory)
